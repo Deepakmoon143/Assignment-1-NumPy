@@ -2,8 +2,8 @@ import numpy as np
 
 array = np.random.random((10, 10))
 
-min_value = array.min()
-max_value = array.max()
+min_value = np.min(array)
+max_value = np.max(array)
 
 print("Minimum value:", min_value)
 print("Maximum value:", max_value)
